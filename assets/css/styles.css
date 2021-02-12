@@ -1,0 +1,374 @@
+*{
+    font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 0; box-sizing: border-box; list-style: none; text-decoration: none;
+}
+
+#header{
+    width: 100%;
+    height: 160px;
+    background-color: rgba(37, 36, 36, 0.878);
+    display: flex;
+    justify-content: center;
+}
+.crearbtn{
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+.table{
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgb(54, 54, 56);
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px 0px;
+    
+}
+
+.registro{
+    text-align: center !important;
+}
+.tituloCrear{
+    text-align: center;
+margin-bottom: 33px;
+border-bottom: 1px solid #3953b6;
+font-size: 20px;
+}
+.crearCategoria{
+width: 100%;
+height: 100%;
+box-shadow: 0px 0px 5px 2px rgb(75, 109, 189);
+border-radius: 3px;
+background-color: rgba(37, 36, 36, 0.878);
+}
+
+th{
+    padding: 10px;
+    width: 50%;
+    color: white;
+}
+td{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: rgba(74, 74, 145, 0.912);
+    
+}
+
+#logo, #titulo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulos{
+    color: white;
+}
+#logo img{
+     width: 150px;
+     height: 100%;
+}
+#menu{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(23, 59, 165, 0.633);
+    box-shadow: 0px 4px 8px -1px;
+}
+ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul li a{
+    color: rgba(255, 255, 255, 0.865);
+    margin-right: 3px;
+    
+}
+ul li{
+    
+    border-right: 2px solid rgb(83, 76, 82);
+    transition: all 800ms;
+}
+
+ul li a:hover{
+    color: rgb(83, 76, 82);
+}
+/* ul li a:visited{
+    color:white;
+} */
+
+/* contenido central */
+#content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+#lateral{
+    width: 40%;
+    height: 100%;
+    padding: 30px;
+}
+#login{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 5px 2px rgb(75, 109, 189);
+    border-radius: 3px;
+    background-color: rgba(37, 36, 36, 0.878);
+}
+form{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.enlaces{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+}
+.enlaces a{
+    color:white;
+}
+label{
+    color: white;
+}
+.enlace1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: start;
+}
+.enlaces a:hover{
+    color: #6c83c6;
+}
+.enlaces i{
+    color: rgb(24, 103, 231);
+}
+
+.email, .password{
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 80%;
+    background-color: rgba(22, 22, 221, 0.429);
+}
+
+.enviar, .button{
+    color: white;
+    padding: 3px;
+    width: 50%;
+    background-color: rgb(14, 14, 226);
+    border-radius: 6px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.buttonMas{
+    color: white;
+    padding: 4px;
+    width: 50%;
+    background-color: rgba(144, 146, 142, 0.735);
+    border-radius: 50%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#central{
+    width: 60%;
+    height: 100%;
+    padding: 60px;
+    border-left: 2px solid blue;;
+    margin-top: 29px;
+}
+.destacado{
+    text-align: center;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+
+/* maquetar productos */
+.product{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: center;
+    border-bottom: 1px solid blue;
+    background-color: rgba(37, 36, 36, 0.878);
+    box-shadow: 0px 0px 3px 1px rgb(75, 109, 189);
+    border-radius: 5px;
+    padding: 7px;
+    
+   
+}
+.foto{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    border-right: 1px solid blue;
+    padding: 30px;
+}
+.texto{
+    width: 50%;
+    text-align: center;
+    align-self: center; 
+}
+.texto h2{
+    font-size: 14px;
+    color: white;
+}
+.texto a i{
+    margin: 5px;
+}
+.button{
+    padding: 10px;
+}
+.button:hover{
+    background-color: rgba(37, 36, 36, 0.878);
+    
+}
+.texto p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: rgb(163, 187, 45);
+}
+.product img{
+    width: 200px;
+    height: 200px;
+}
+
+/* footer */
+#footer{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: rgba(37, 36, 36, 0.878);
+}
+
+.registrarse{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.labelRegistro{
+    color: white;
+}
+.inputRegistro{
+    width: 80%;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    background-color: rgba(22, 22, 221, 0.429);
+}
+.btnRegistro{
+    color: white;
+    padding: 3px;
+    width: 50%;
+    background-color: rgb(14, 14, 226);
+    border-radius: 6px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.form{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 5px 2px rgb(75, 109, 189);
+    border-radius: 3px;
+    background-color: rgba(37, 36, 36, 0.878);
+}
+
+.red{
+    background-color: red;
+}
+.orange{
+    background-color:  rgb(243, 192, 23);
+}
+
+.thumb{
+    width: 250px;
+    height: 250px;
+}
+
+.details-product{
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border-bottom: 1px solid blue;
+    background-color: rgba(37, 36, 36, 0.878);
+    box-shadow: 0px 0px 3px 1px rgb(75, 109, 189);
+    border-radius: 5px;
+}
+.fotoCategory{
+    width: 50%;
+    
+}
+.fotoCategory img{
+    width: 100%;
+    height: 500px;
+}
+.textoCategory{
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+
+}
+.descripcionC{
+    height: 15%;
+    text-align: center;
+    padding: 20px;
+}
+.precioC{
+    color: rgb(163, 187, 45);;
+}
+
+.img_carrito{
+    height: 80px;
+
+}
+.carritoV{
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+    padding: 30px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #407ca8;
+}
+.hacer{
+    border: 1px solid white;
+padding: 3px;
+background-color: #0f0e0e9c;
+border-radius: 3px;
+color: white;
+}
+.hacer:hover{
+    background-color: #0f0e0ed5;
+}
+
+.tableConfirmacion{
+    margin-top: 20px;
+width: 100%;
+background-color: rgb(52, 55, 54);
+border-radius: 3px;
+box-shadow: 0px 0px 2px 0px;
+border: 3px dashed #f2f2f2;
+}
+.datosPedido td{
+    text-align: center;
+padding: 10px;
+color: white;
+background-color: rgba(63, 63, 64, 0.91);
+}
+
+.red{
+    color: red;
+    
+}
